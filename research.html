@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recherche De Films</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/search.css">
+  <script src="assets/js/search.js" defer></script>
+
+</head>
+
+<body>
+  <div>
+    <!-- <img src="assets/img/image-not-found-scaled.png" alt=""> -->
+  </div>
+  <div class="container">
+    <h1 class="" text-center mt-5>Movie info App</h1>
+    <form id="movieForm" autocomplete="off">
+      <div class="form-group">
+        <label for="Movie">Movie Name</label>
+        <input type="text" class="form-control" id="movie" placeholder="Movie..">
+        <label for="year">Movie Year</label>
+        <input type="number" class="form-control" id="year" placeholder="Year..">
+      </div>
+      <div class="form-group">
+        <button class="btn btn-danger btn-block" id="search">
+          Search Movie
+        </button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="assets/js/Confetti.js"></script>
+
+</html>
